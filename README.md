@@ -32,6 +32,9 @@ phrase = 'ho any antsirabe azafady ?'
 print(intent_names[my_model.predict(inference_preprocess(phrase))[0]])
 ```
 
+### API
+Voici le code du serveur local (Flask) du classifieur d'intention >> [server.py](https://github.com/mzmpiononz/basic-nlp-algo/blob/main/server.py)
+
 ### References:
 - [know-your-intent](https://github.com/kumar-shridhar/Know-Your-Intent/tree/master)
 - [Subword Semantic Hashing for Intent Classification on Small Datasets.](https://arxiv.org/abs/1810.07150)
