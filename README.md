@@ -3,7 +3,12 @@
 Comment creer votre propre algorithme NLP (detecteur de spam, classifieur d'intention, sentimental analysis,...) avec seulement quelques lignes de phrases ?
 C'est possible grace à la **semantic hashing method**
 
-# Usage
+### Requirements
+```
+pip install numpy sckit-learn pickle
+```
+
+### Usage
 ```
 import pickle
 from utils import semhash_training, inference_preprocess
